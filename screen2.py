@@ -1,6 +1,9 @@
 import pygame
 import settings
 pygame.init()
+pygame.mixer.init()
+pygame.mixer.music.load("./music/game music.mp3")
+pygame.mixer.music.play(-1)
 
 screen = pygame.display.set_mode((settings.WINDOW_WIDTH, settings.WINDOW_HEIGHT))
 pygame.display.set_caption("Othello")
