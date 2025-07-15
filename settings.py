@@ -1,0 +1,22 @@
+WINDOW_WIDTH = 1000
+WINDOW_HEIGHT = 650
+TOP_PANEL_HEIGHT = 60
+SIDE_PANEL_WIDTH = 200
+GAME_TITLE = "*Othello*"
+
+COLORS = {
+    "black": (0, 0, 0),
+    "white": (255, 255, 255),
+    "green": (0, 200, 0),
+    "bg": (50, 50, 50)  
+}
+
+FONT = {
+    "name": "Arial",
+    "size": 45
+}
+BOARD_WIDTH = WINDOW_WIDTH - 2 * SIDE_PANEL_WIDTH
+BOARD_HEIGHT = WINDOW_HEIGHT - TOP_PANEL_HEIGHT
+CELL_SIZE = BOARD_WIDTH // 8
+BOARD_X = SIDE_PANEL_WIDTH
+BOARD_Y = TOP_PANEL_HEIGHT
